@@ -1,11 +1,11 @@
 version: "3"
 services:
-  vscode:
+  bootcamp-rocketseat-docker:
     stdin_open: true
     tty: true
-    container_name: vscode
+    container_name: bootcamp-rocketseat-docker
     restart: "no"
-    image: marcellocosta/vscode
+    image: marcellocosta/bootcamp-rocketseat-docker
     environment:
         DISPLAY: ":0"
     volumes:

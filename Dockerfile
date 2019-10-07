@@ -17,6 +17,10 @@ RUN echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
    
 ADD ./init.sh /usr/local/bin/init.sh
 
+# Install nodejs
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+RUN apt-get update && apt-get install -y nodejs
+
 USER developer
 ENV HOME /home/developer
 

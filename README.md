@@ -1,5 +1,5 @@
 # Bootcamp Rocketseat Docker
-VSCode running inside a docker container + Nodejs
+VSCode running inside a docker container + Nodejs + React and more
 
 # Instructions
 ### To run this project, you will need the docker and docker-compose preinstalled on your machine.
@@ -18,4 +18,4 @@ cd bootcamp-rocketseat-docker && docker-compose build && docker-compose up -d
 
 To open VSCode a second time, run the command:
 
-xhost + && docker container restart vscode
+xhost + && docker container restart bootcamp-rocketseat-docker
