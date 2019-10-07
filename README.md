@@ -8,5 +8,11 @@ VSCode running inside a docker container + Nodejs
 ## 1- Clone the repository
 git clone https://github.com/marcelloti/bootcamp-rocketseat-docker.git
 
-## 2- Create and run docker-compose
+## 2- Allow GUI applications
+xhost +
+
+## 3- Create and run docker-compose
 cd code docker && docker-compose build && docker-compose up -d
+
+## Depois que o último comando rodar o VSCode irá abrir. Para abrí-lo da segunda vez em diante, execute no terminal o comando:
+xhost + && docker container restart vscode

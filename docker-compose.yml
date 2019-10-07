@@ -1,0 +1,17 @@
+version: "3"
+services:
+  vscode:
+    stdin_open: true
+    tty: true
+    container_name: vscode
+    restart: "no"
+    image: marcellocosta/vscode
+    environment:
+        DISPLAY: ":0"
+    volumes:
+    #    - "$HOME/.Xauthority:/root/.Xauthority:rw"
+        - "./developer:/home/developer"
+    network_mode: "host"
+    build:
+        dockerfile: Dockerfile
+        context: .
