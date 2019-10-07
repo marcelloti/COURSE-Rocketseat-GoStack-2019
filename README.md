@@ -1,5 +1,5 @@
-# vscode-docker
-VsCode running inside a docker container
+# Bootcamp Rocketseat Docker
+VSCode running inside a docker container + Nodejs
 
 # Instructions
 ### To run this project, you will need the docker and docker-compose preinstalled on your machine.
