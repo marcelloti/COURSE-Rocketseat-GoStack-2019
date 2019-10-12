@@ -24,4 +24,7 @@ RUN apt-get update && apt-get install -y nodejs
 USER developer
 ENV HOME /home/developer
 
+# Update fonts cache
+RUN fc-cache -f -v
+
 ENTRYPOINT /usr/local/bin/init.sh && /bin/bash

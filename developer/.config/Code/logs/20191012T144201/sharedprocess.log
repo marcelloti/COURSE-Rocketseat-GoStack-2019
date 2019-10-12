@@ -1,0 +1,26 @@
+[2019-10-12 14:42:05.464] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
+[2019-10-12 14:42:45.473] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-12 14:50:57.097] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2019-10-12 14:50:58.003] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /tmp/02b9383d-e11e-4394-b624-39b8303c300a
+[2019-10-12 14:50:59.756] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.pkief.material-icon-theme-3.9.1: pkief.material-icon-theme
+[2019-10-12 14:50:59.757] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/pkief.material-icon-theme-3.9.1
+[2019-10-12 14:50:59.760] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2019-10-12 14:50:59.768] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2019-10-12 14:51:46.526] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2019-10-12 14:51:47.536] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight /tmp/647e96f8-54e6-4294-b717-84e302a8411d
+[2019-10-12 14:51:47.813] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.naumovs.color-highlight-2.3.0: naumovs.color-highlight
+[2019-10-12 14:51:47.814] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/naumovs.color-highlight-2.3.0
+[2019-10-12 14:51:47.815] [sharedprocess] [info] Installation completed. naumovs.color-highlight
+[2019-10-12 14:51:47.822] [sharedprocess] [info] Extensions installed successfully: naumovs.color-highlight
+[2019-10-12 14:52:06.596] [sharedprocess] [info] Installing extension: rocketseat.rocketseatreactjs
+[2019-10-12 14:52:07.292] [sharedprocess] [info] Downloaded extension: rocketseat.rocketseatreactjs /tmp/c4adfc2a-ab18-4272-8c17-2706225dc69c
+[2019-10-12 14:52:07.347] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.rocketseat.rocketseatreactjs-2.2.0: rocketseat.rocketseatreactjs
+[2019-10-12 14:52:07.347] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/rocketseat.rocketseatreactjs-2.2.0
+[2019-10-12 14:52:07.348] [sharedprocess] [info] Installation completed. rocketseat.rocketseatreactjs
+[2019-10-12 14:52:07.355] [sharedprocess] [info] Extensions installed successfully: rocketseat.rocketseatreactjs
+[2019-10-12 14:52:11.640] [sharedprocess] [info] Installing extension: rocketseat.rocketseatreactnative
+[2019-10-12 14:52:12.761] [sharedprocess] [info] Downloaded extension: rocketseat.rocketseatreactnative /tmp/cf6452ee-8adb-43f6-aec9-70c39da12806
+[2019-10-12 14:52:12.839] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.rocketseat.rocketseatreactnative-2.2.0: rocketseat.rocketseatreactnative
+[2019-10-12 14:52:12.839] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/rocketseat.rocketseatreactnative-2.2.0
+[2019-10-12 14:52:12.840] [sharedprocess] [info] Installation completed. rocketseat.rocketseatreactnative
+[2019-10-12 14:52:12.846] [sharedprocess] [info] Extensions installed successfully: rocketseat.rocketseatreactnative

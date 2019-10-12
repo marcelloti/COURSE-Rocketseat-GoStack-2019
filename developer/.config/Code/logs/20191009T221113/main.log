@@ -1,0 +1,7 @@
+[2019-10-09 22:11:13.428] [main] [error] [uncaught exception in main]: Unable to retrieve mac address (Error: Command failed: /sbin/ifconfig -a || /sbin/ip link
+/bin/sh: 1: /sbin/ifconfig: not found
+/bin/sh: 1: /sbin/ip: not found
+)
+[2019-10-09 22:11:13.440] [main] [info] update#setState idle
+[2019-10-09 22:11:43.442] [main] [info] update#setState checking for updates
+[2019-10-09 22:11:43.652] [main] [info] update#setState available for download
