@@ -1,0 +1,34 @@
+[2019-10-12 22:03:59.675] [exthost] [info] extension host started
+[2019-10-12 22:03:59.914] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 22:03:59.914] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-10-12 22:03:59.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 22:03:59.937] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-10-12 22:04:00.216] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 22:04:00.217] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-10-12 22:04:00.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.449] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-12 22:04:00.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.457] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-12 22:04:00.568] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.568] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-12 22:04:00.816] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.816] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-12 22:04:00.830] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.830] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2019-10-12 22:04:00.883] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.883] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/pkief.material-icon-theme-3.9.1/dist/extension
+[2019-10-12 22:04:00.933] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"activationEvent":"*"}
+[2019-10-12 22:04:00.934] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-12 22:04:01.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-10-12 22:04:01.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-10-12 22:04:01.281] [exthost] [info] eager extensions activated
+[2019-10-12 22:26:48.620] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-portuguese {"startup":false,"activationEvent":"*"}
+[2019-10-12 22:26:48.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-0.1.0/out/src/extension
+[2019-10-12 22:26:54.940] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-portuguese-brazilian {"startup":false,"activationEvent":"*"}
+[2019-10-12 22:26:54.940] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0/out/src/extension
+[2019-10-12 22:35:48.884] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2019-10-12 22:35:48.904] [exthost] [error] Error: DisposableStore is missing...
+	at R._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:559:660)
+	at define.resolveCompletionItem.o.asPromise.then.e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:559:290)
+[2019-10-12 23:05:26.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-10-12 23:05:26.225] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension

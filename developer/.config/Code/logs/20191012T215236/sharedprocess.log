@@ -1,0 +1,35 @@
+[2019-10-12 21:52:40.607] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
+[2019-10-12 21:53:20.626] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-12 21:54:43.105] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:54:43.632] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-pt-br /tmp/7bc1539d-d4c0-455f-b682-0b809d3a3e4e
+[2019-10-12 21:54:43.887] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.ms-ceintl.vscode-language-pack-pt-br-1.38.4: ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:54:43.888] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.38.4
+[2019-10-12 21:54:43.890] [sharedprocess] [info] Installation completed. ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:54:43.898] [sharedprocess] [info] Extensions installed successfully: ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:54:47.875] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:54:48.738] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker-portuguese-brazilian /tmp/0da37c07-1b8b-4075-9b60-7ae12807574f
+[2019-10-12 21:54:49.100] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:54:49.100] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0
+[2019-10-12 21:54:49.101] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:54:49.366] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker
+[2019-10-12 21:54:50.753] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker /tmp/691acf25-1d48-4cf5-914e-f638acbe119b
+[2019-10-12 21:54:51.602] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 21:54:51.976] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker-portuguese /tmp/dc50da2b-40a9-42a1-9149-dcef24bdd6d7
+[2019-10-12 21:54:52.349] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.streetsidesoftware.code-spell-checker-portuguese-0.1.0: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 21:54:52.349] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-0.1.0
+[2019-10-12 21:54:52.351] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 21:54:56.506] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.streetsidesoftware.code-spell-checker-1.7.18: streetsidesoftware.code-spell-checker
+[2019-10-12 21:54:56.507] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18
+[2019-10-12 21:54:56.509] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker
+[2019-10-12 21:54:56.528] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker
+[2019-10-12 21:54:56.531] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:54:56.532] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 21:55:09.157] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
+[2019-10-12 21:55:49.195] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-12 21:55:49.198] [sharedprocess] [info] Skipping directory 4b15c4d0ef6b6f90715ded68544c3e15.pt-br. Language pack still in use.
+[2019-10-12 21:58:52.278] [sharedprocess] [info] Uninstalling extension: ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:58:52.305] [sharedprocess] [info] Successfully uninstalled extension: ms-ceintl.vscode-language-pack-pt-br
+[2019-10-12 21:58:58.273] [sharedprocess] [info] Uninstalling extension: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:58:58.287] [sharedprocess] [info] Successfully uninstalled extension: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 21:59:02.345] [sharedprocess] [info] Uninstalling extension: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 21:59:02.363] [sharedprocess] [info] Successfully uninstalled extension: streetsidesoftware.code-spell-checker-portuguese

@@ -1,0 +1,16 @@
+[2019-10-12 22:04:00.045] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
+[2019-10-12 22:04:33.152] [sharedprocess] [info] Uninstalling extension: formulahendry.code-runner
+[2019-10-12 22:04:33.165] [sharedprocess] [info] Successfully uninstalled extension: formulahendry.code-runner
+[2019-10-12 22:04:40.094] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-12 22:26:46.857] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 22:26:47.925] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker-portuguese /tmp/53d3aca6-7e90-4f98-87d7-09a92ab0c8b7
+[2019-10-12 22:26:48.358] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.streetsidesoftware.code-spell-checker-portuguese-0.1.0: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 22:26:48.360] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-0.1.0
+[2019-10-12 22:26:48.361] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 22:26:48.483] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker-portuguese
+[2019-10-12 22:26:54.056] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 22:26:54.437] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker-portuguese-brazilian /tmp/895a78f1-74c3-443c-b6d8-3066dc2793f1
+[2019-10-12 22:26:54.758] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0: streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 22:26:54.759] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0
+[2019-10-12 22:26:54.762] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker-portuguese-brazilian
+[2019-10-12 22:26:54.846] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker-portuguese-brazilian

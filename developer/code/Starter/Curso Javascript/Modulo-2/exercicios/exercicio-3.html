@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <ul>
+    </ul>
+  </body>
+  <script>
+    var nomes = ["Diego", "Gabriel", "Lucas"];
+
+    var lista = document.querySelector('ul');
+
+    for (var i = 0; i < 3; i++) {
+      adicionar(nomes[i]);
+    }
+
+    /**
+     * Função de adicionar nomes à lista
+    */
+    function adicionar(nome){
+      var li = document.createElement('li');
+      li.innerHTML = nome;
+      lista.append(li);
+    }
+  </script>
+</html>

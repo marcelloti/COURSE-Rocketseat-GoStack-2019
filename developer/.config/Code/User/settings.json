@@ -19,5 +19,9 @@
     "javascript.updateImportOnFileMove.enabled": "never",
     "editor.parameterHints.enabled": false,
     "breadcrumbs.enabled": true,
-    "javascript.suggest.autoImports": false
+    "javascript.suggest.autoImports": false,
+    "code-runner.runInTerminal": true,
+    "cSpell.userWords": [
+        "quadrado"
+    ]
 }

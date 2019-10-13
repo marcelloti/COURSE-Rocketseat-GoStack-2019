@@ -1,0 +1,6 @@
+[2019-10-12 21:59:51.547] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
+[2019-10-12 21:59:52.250] [sharedprocess] [info] Deleted from disk ms-ceintl.vscode-language-pack-pt-br /home/developer/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.38.4
+[2019-10-12 21:59:52.250] [sharedprocess] [info] Deleted from disk streetsidesoftware.code-spell-checker-portuguese /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-0.1.0
+[2019-10-12 21:59:52.251] [sharedprocess] [info] Deleted from disk streetsidesoftware.code-spell-checker-portuguese-brazilian /home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-portuguese-brazilian-0.1.0
+[2019-10-12 22:00:31.573] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-12 22:00:31.576] [sharedprocess] [info] Removing unused language pack: 4b15c4d0ef6b6f90715ded68544c3e15.pt-br

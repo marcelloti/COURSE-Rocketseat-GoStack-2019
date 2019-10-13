@@ -1,0 +1,24 @@
+[2019-10-12 21:59:51.493] [exthost] [info] extension host started
+[2019-10-12 21:59:51.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-10-12 21:59:51.736] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-12 21:59:51.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-10-12 21:59:51.903] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-10-12 21:59:52.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-12 21:59:52.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.127] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-12 21:59:52.385] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.385] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-12 21:59:52.399] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.399] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2019-10-12 21:59:52.448] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.448] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/pkief.material-icon-theme-3.9.1/dist/extension
+[2019-10-12 21:59:52.487] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"activationEvent":"*"}
+[2019-10-12 21:59:52.487] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/developer/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.18/dist/extension
+[2019-10-12 21:59:52.703] [exthost] [info] eager extensions activated
+[2019-10-12 21:59:57.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 21:59:57.235] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-10-12 21:59:57.282] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 21:59:57.282] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-10-12 21:59:57.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-10-12 21:59:57.628] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension

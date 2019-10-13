@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <script>
+      /**
+       * Função que exibe a experiência do aluno.
+       * 
+       * Poderia ter sido feito com if, >, <, etc...
+      */
+      function experiencia(anos){
+        switch(anos){
+          case 0:
+          case 1:
+            console.log('Iniciante');
+          break;
+
+          case 2:
+          case 3:
+            console.log('Intermediário');
+          break;
+
+          case 4:
+          case 5:
+          case 6:
+            console.log('Avançado');
+          break;
+
+          default:
+            console.log('Jedi Master');
+          break;
+        }  
+      }
+
+      var anosEstudo = 7;
+      experiencia(anosEstudo);
+    </script>
+  </body>
+</html>

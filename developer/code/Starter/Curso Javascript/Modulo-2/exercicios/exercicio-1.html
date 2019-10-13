@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <button class="btncreatenewbtn">Criar</button>
+  </body>
+  <script>
+    /**
+     * Função que cria um quadrado vermelho na tela
+    */
+    function criaQuadrado() {
+      // Criando o objeto em memória
+      var quadrado = document.createElement('div');
+
+      // Definindo as propriedades
+      quadrado.style.width = 100;
+      quadrado.style.height = 100;
+      quadrado.style.backgroundColor = '#f00';
+
+      quadrado.style.marginTop = '10px';
+
+      // Inserindo o elemento na página
+      document.body.append(quadrado);
+    }
+
+    var btnElement = document.querySelector('button.btncreatenewbtn');
+
+    // Ao clicar no botão, chama a função de criar o elemento
+    btnElement.onclick = criaQuadrado;
+  </script>
+</html>

@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso Javascript</title>
+  </head>
+  <body>
+    <button class="btncreatenewbtn">Criar</button>
+  </body>
+  <script>
+    /**
+     * Função que gera uma cor aleatória
+    */
+    function getRandomColor() {
+      var letters = "0123456789ABCDEF";
+      var color = "#";
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    /**
+     * Função que cria um quadrado vermelho na tela
+    */
+    function criaQuadrado() {
+      // Criando o objeto em memória
+      var quadrado = document.createElement('div');
+      
+      // Definindo as propriedades
+      quadrado.className = 'quadrado';
+      quadrado.style.width = 100;
+      quadrado.style.height = 100;
+      quadrado.style.backgroundColor = '#f00';
+
+      quadrado.style.marginTop = '10px';
+
+      // Inserindo o elemento na página
+      document.body.append(quadrado);
+
+      // Ao passar o mouse em algum quadrado, chama a função de modificar a cor
+      quadrado.onmouseover = function(){
+        var corAleatoria = getRandomColor();
+        console.log(corAleatoria);
+        this.style.backgroundColor = corAleatoria;
+      }
+    }
+
+    var btnElement = document.querySelector('button.btncreatenewbtn');
+
+    // Ao clicar no botão, chama a função de criar o elemento
+    btnElement.onclick = criaQuadrado;
+  </script>
+</html>
