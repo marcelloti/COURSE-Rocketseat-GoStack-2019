@@ -6,11 +6,6 @@ RUN apt-get update && \
     apt-get -y -f install
     
 RUN adduser --disabled-password --gecos "" developer && mkdir /home/developer/code && chmod 777 -R /home/developer/code
-    
-# Install Visual Studio Code
-RUN curl -L 'https://go.microsoft.com/fwlink/?LinkID=760868' -o "/tmp/vscode.deb"
-RUN dpkg -i "/tmp/vscode.deb"; exit 0;
-RUN apt-get -y -f install
 
 RUN echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
     chmod 0440 /etc/sudoers.d/developer
@@ -20,6 +15,11 @@ ADD ./init.sh /usr/local/bin/init.sh
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get update && apt-get install -y nodejs
+
+# Install yarn
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+RUN apt-get update && apt-get install yarn
 
 USER developer
 ENV HOME /home/developer
