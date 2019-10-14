@@ -20,7 +20,7 @@ cd bootcamp-rocketseat-docker && docker-compose build && docker-compose up -d
 
 Para abrir o VSCode uma segunda vez, execute o comando:
 
-xhost + && docker container reiniciar bootcamp-rocketseat-docker
+xhost + && docker container restart bootcamp-rocketseat-docker
 
 
 ## Se você não quer baixar a última versão do vscode
