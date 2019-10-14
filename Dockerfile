@@ -2,7 +2,7 @@ FROM debian:buster-slim
 
 RUN apt-get update && \
     apt-get -y upgrade && \
-    apt-get -y install libcanberra-gtk-module libgconf-2-4 libasound2 libgtk2.0-0 libxss1 sudo curl wget libx11-xcb-dev git build-essential libssl-dev && \ 
+    apt-get -y install libcanberra-gtk-module libgconf-2-4 libasound2 libgtk2.0-0 libxss1 sudo curl wget libx11-xcb-dev git build-essential libssl-dev procps && \ 
     apt-get -y -f install
     
 RUN adduser --disabled-password --gecos "" developer && mkdir /home/developer/code && chmod 777 -R /home/developer/code

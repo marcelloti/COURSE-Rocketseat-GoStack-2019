@@ -24,7 +24,7 @@ xhost + && docker container restart bootcamp-rocketseat-docker
 
 
 ## Se você não quer baixar a última versão do vscode
-Se você não quer baixar a última versão do vscode e deseja instalar uma versão específica, você pode colocar o pacote do visual no caminho /bootcamp-rocketseat-docker/developer/downloads/vscode.deb
+Na primeira vez que o container inicializar, ele irá baixar a última versão do visual studio code. Dependendo da velocidade da sua conexão, pode demorar um pouco para o visual studio abrir. Se você não deseja fazer o download da versão mais recente automaticamente ou deseja instalar uma versão específica, você pode colocar o pacote do visual no caminho /bootcamp-rocketseat-docker/developer/downloads/vscode.deb
 e o docker instalará automaticamente o código do visual studio a partir daqui
 
 
@@ -52,5 +52,6 @@ To open VSCode a second time, run the command:
 xhost + && docker container restart bootcamp-rocketseat-docker
 
 ## If you don't want to download the latest version of vscode
-If you do not want to download the latest version of vscode and want to install a specific version, you can place the visual package in the path /bootcamp-rocketseat-docker/developer/downloads/vscode.deb
+
+The first time the container boots, it will download the latest version of visual studio code. Depending on your connection speed, it may take a while for visual studio to open. If you do not want to download the latest version of vscode automatically or if want to install a specific version, you can place the visual package in the path /bootcamp-rocketseat-docker/developer/downloads/vscode.deb
 and the docker will automatically install visual studio code from here
