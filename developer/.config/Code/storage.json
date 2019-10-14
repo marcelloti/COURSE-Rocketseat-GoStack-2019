@@ -1381,10 +1381,10 @@
             "backupPath": "/home/developer/.config/Code/Backups/e0be9205fae40fba0b318be1cbd98509",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 0,
+                "x": 646,
+                "y": 163,
                 "width": 1024,
-                "height": 701
+                "height": 520
             }
         },
         "openedWindows": []

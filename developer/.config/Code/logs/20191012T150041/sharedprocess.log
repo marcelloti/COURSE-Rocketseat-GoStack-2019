@@ -1,8 +1,0 @@
-[2019-10-12 15:00:45.236] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3"}
-[2019-10-12 15:01:25.252] [sharedprocess] [info] Starting to clean up unused language packs.
-[2019-10-12 21:50:52.999] [sharedprocess] [info] Installing extension: formulahendry.code-runner
-[2019-10-12 21:50:53.712] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner /tmp/c8231ae5-66a9-4834-a786-282b070cab68
-[2019-10-12 21:50:54.480] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.formulahendry.code-runner-0.9.14: formulahendry.code-runner
-[2019-10-12 21:50:54.481] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/formulahendry.code-runner-0.9.14
-[2019-10-12 21:50:54.484] [sharedprocess] [info] Installation completed. formulahendry.code-runner
-[2019-10-12 21:50:54.496] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner

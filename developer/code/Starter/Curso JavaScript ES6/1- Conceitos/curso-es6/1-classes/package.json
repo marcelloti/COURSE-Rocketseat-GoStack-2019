@@ -1,0 +1,15 @@
+{
+  "name": "curso-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "scripts": {
+    "dev-exemplo1": "babel ./exemplo_1.js -o ./exemplo_1_bundle.js -w",
+    "dev-exemplo2": "babel ./exemplo_2.js -o ./exemplo_2_bundle.js -w"
+  }
+}
