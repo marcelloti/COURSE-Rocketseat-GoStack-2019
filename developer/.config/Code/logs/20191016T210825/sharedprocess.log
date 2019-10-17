@@ -1,0 +1,8 @@
+[2019-10-16 21:08:29.827] [sharedprocess] [info] main {"machineId":"9fe80de5-6529-4280-b000-8c1d81efbab3","windowId":2}
+[2019-10-16 21:08:32.567] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2019-10-16 21:08:33.739] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /tmp/b8ffc4fd-a399-43ab-b54c-23f7c725ae2b
+[2019-10-16 21:08:34.145] [sharedprocess] [info] Extracted extension to /home/developer/.vscode/extensions/.dracula-theme.theme-dracula-2.18.1: dracula-theme.theme-dracula
+[2019-10-16 21:08:34.147] [sharedprocess] [info] Renamed to /home/developer/.vscode/extensions/dracula-theme.theme-dracula-2.18.1
+[2019-10-16 21:08:34.155] [sharedprocess] [info] Installation completed. dracula-theme.theme-dracula
+[2019-10-16 21:08:34.219] [sharedprocess] [info] Extensions installed successfully: dracula-theme.theme-dracula
+[2019-10-16 21:09:09.842] [sharedprocess] [info] Starting to clean up unused language packs.
