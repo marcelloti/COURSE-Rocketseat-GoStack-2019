@@ -18,7 +18,7 @@ server.use((req, res, next) => {
  */
 function projectExists(req, res, next){
 
-  let indexToChange = projects.findIndex(x => x.id === req.params.index);
+  let indexToChange = projects.findIndex(x => x.id === parseInt(req.params.index));
 
   if (indexToChange < 0){
     return res.status(400).json({ error: "Project does not exists. Details: "+JSON.stringify(projects)});
