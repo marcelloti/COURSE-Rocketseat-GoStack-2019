@@ -10,7 +10,7 @@ RUN adduser --disabled-password --gecos "" developer && mkdir /home/developer/co
 RUN echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
     chmod 0440 /etc/sudoers.d/developer
    
-ADD ./init-docker.sh /usr/local/bin/init.sh
+ADD ./init-vscode.sh /usr/local/bin/init.sh
 
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
@@ -21,11 +21,15 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 RUN apt-get update && apt-get install yarn
 
+USER developer
+ENV HOME /home/developer
+touch /home/developer/.bashrc
+
 # Install NVM
 RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 
-USER developer
-ENV HOME /home/developer
+# Install ESLint
+RUN sudo npm install -g eslint-plugin-import eslint@6.5
 
 # Update fonts cache
 RUN fc-cache -f -v

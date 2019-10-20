@@ -1,11 +1,11 @@
 version: "3"
 services:
-  bootcamp-rocketseat-docker:
+  node-and-vscode:
     stdin_open: true
     tty: true
-    container_name: bootcamp-rocketseat-docker
+    container_name: node-and-vscode
     restart: "no"
-    image: marcellocosta/bootcamp-rocketseat-docker
+    image: marcellocosta/node-and-vscode
     environment:
         DISPLAY: ":0"
     volumes:
@@ -13,9 +13,26 @@ services:
         - "./developer:/home/developer"
     network_mode: "host"
     build:
-        dockerfile: Dockerfile
+        dockerfile: DockerfileVSCode
+        context: .
+        
+  postbird:
+    stdin_open: true
+    tty: true
+    container_name: postbird
+    restart: "no"
+    image: marcellocosta/postbird
+    environment:
+        DISPLAY: ":0"
+    volumes:
+    #    - "$HOME/.Xauthority:/root/.Xauthority:rw"
+        - "./developer:/home/developer"
+    network_mode: "host"
+    build:
+        dockerfile: DockerfilePostbird
         context: .
 
+  # Databases
   mongo:
     image: mongo
     environment:
@@ -26,3 +43,15 @@ services:
     volumes:
       - "./developer/mongodb :/data/db"
     network_mode: "host"
+
+  postgres:
+    image: postgres:11
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./developer/postgres_data:/var/lib/postgresql/data"
+    tty: true
+    stdin_open: true
