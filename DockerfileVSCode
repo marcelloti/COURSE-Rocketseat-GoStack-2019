@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install yarn
 
 USER developer
 ENV HOME /home/developer
-touch /home/developer/.bashrc
+RUN touch /home/developer/.bashrc
 
 # Install NVM
 RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash

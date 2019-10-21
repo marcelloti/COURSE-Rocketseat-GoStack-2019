@@ -31,6 +31,22 @@ services:
     build:
         dockerfile: DockerfilePostbird
         context: .
+        
+  insomnia:
+    stdin_open: true
+    tty: true
+    container_name: insomnia
+    restart: "no"
+    image: marcellocosta/insomnia
+    environment:
+        DISPLAY: ":0"
+    volumes:
+    #    - "$HOME/.Xauthority:/root/.Xauthority:rw"
+        - "./developer:/home/developer"
+    network_mode: "host"
+    build:
+        dockerfile: DockerfileInsomnia
+        context: .
 
   # Databases
   mongo:
