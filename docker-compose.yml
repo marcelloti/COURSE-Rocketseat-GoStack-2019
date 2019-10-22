@@ -61,12 +61,11 @@ services:
   mongo:
     image: mongo
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGODB_DATABASE: gobarber
     ports:
       - "27017:27017"
     volumes:
-      - "./developer/mongodb :/data/db"
+      - "./developer/mongodb:/data/db"
     network_mode: "host"
 
   postgres:
