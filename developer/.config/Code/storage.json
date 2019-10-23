@@ -373,8 +373,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1382,10 +1381,10 @@
             "backupPath": "/home/developer/.config/Code/Backups/e0be9205fae40fba0b318be1cbd98509",
             "uiState": {
                 "mode": 0,
-                "x": 4,
-                "y": 29,
-                "width": 902,
-                "height": 453
+                "x": 498,
+                "y": 204,
+                "width": 1332,
+                "height": 748
             }
         },
         "openedWindows": []

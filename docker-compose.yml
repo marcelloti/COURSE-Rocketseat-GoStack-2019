@@ -32,21 +32,21 @@ services:
         dockerfile: DockerfilePostbird
         context: .
         
-  #insomnia:
-  #  stdin_open: true
-  #  tty: true
-  #  container_name: insomnia
-  #  restart: "no"
-  #  image: marcellocosta/insomnia
-  #  environment:
-  #      DISPLAY: ":0"
-  #  volumes:
-  #  #    - "$HOME/.Xauthority:/root/.Xauthority:rw"
-  #      - "./developer:/home/developer"
-  #  network_mode: "host"
-  #  build:
-  #      dockerfile: DockerfileInsomnia
-  #      context: .
+  insomnia:
+    stdin_open: true
+    tty: true
+    container_name: insomnia
+    restart: "no"
+    image: marcellocosta/insomnia
+    environment:
+        DISPLAY: ":0"
+    volumes:
+    #    - "$HOME/.Xauthority:/root/.Xauthority:rw"
+        - "./developer:/home/developer"
+    network_mode: "host"
+    build:
+        dockerfile: DockerfileInsomnia
+        context: .
   
   redis:
     image: redis:alpine
@@ -79,3 +79,4 @@ services:
       - "./developer/postgres_data:/var/lib/postgresql/data"
     tty: true
     stdin_open: true
+    network_mode: "host"
