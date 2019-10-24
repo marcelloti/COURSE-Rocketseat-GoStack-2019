@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0.1, // Originalmente estava como 2 no tutorial
+    "window.zoomLevel": 1, // Originalmente estava como 2 no tutorial
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Dracula",
     "editor.fontFamily": "Fira Code",

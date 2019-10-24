@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "types-registry": "^0.1.461"
+    "types-registry": "^0.1.462"
   },
   "devDependencies": {
     "@types/abbrev": "^1.1.1",
