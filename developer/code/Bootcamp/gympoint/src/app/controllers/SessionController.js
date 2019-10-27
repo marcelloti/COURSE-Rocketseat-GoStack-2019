@@ -6,7 +6,7 @@ import authConfig from '../../config/auth';
 
 class SessionController {
   /**
-   * Rota que retorna o token de acesso à api
+   * Route that returns the api access token
    */
   async store(req, res) {
     const schema = Yup.object().shape({

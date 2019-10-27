@@ -6,7 +6,7 @@ class Plan extends Model {
       {
         title: Sequelize.STRING,
         duration: Sequelize.NUMBER,
-        price: Sequelize.DECIMAL(10,2)
+        price: Sequelize.DECIMAL(10, 2),
       },
       {
         sequelize,
@@ -18,4 +18,3 @@ class Plan extends Model {
 }
 
 export default Plan;
-

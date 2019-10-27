@@ -21,19 +21,16 @@ class Database {
 
     models
       .map(model => model.init(this.connection))
-      // Só executa o model.associate se ele existir
+      // Runs model.associate if it exists
       .map(model => model.associate && model.associate(this.connection.models));
   }
 
   mongo() {
-    this.mongoConnection = mongoose.connect(
-      process.env.MONGO_URL,
-      {
-        useNewUrlParser: true,
-        useFindAndModify: true,
-        useUnifiedTopology: true,
-      }
-    );
+    this.mongoConnection = mongoose.connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useFindAndModify: true,
+      useUnifiedTopology: true,
+    });
   }
 }
 

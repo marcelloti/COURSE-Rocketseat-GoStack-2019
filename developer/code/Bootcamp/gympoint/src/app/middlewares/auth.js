@@ -12,7 +12,7 @@ export default async (req, res, next) => {
   const [, token] = authHeader.split(' ');
 
   try {
-    // O método promisify aqui permite utilizar o método jwt.verify com await
+    // The promisify method here lets you use the jwt.verify method with await
     const decoded = await promisify(jwt.verify)(token, authConfig.secret);
 
     req.userId = decoded.id;

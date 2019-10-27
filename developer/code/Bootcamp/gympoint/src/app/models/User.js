@@ -3,12 +3,12 @@ import bcrypt from 'bcryptjs';
 
 class User extends Model {
   static init(sequelize) {
-    /* Usando aqui "super.init". Isto diz que o método
-       init da classe pai "Model" será chamado.
-       Aqui são declaradas apenas as colunas que serão
-       preenchidas com algum dado manualmente (colunas
-       como createAt, PKs e etc não precisam ser
-       declaradas)
+    /* Using here "super.init". This says that
+       the init method of the parent class "Model"
+       will be called. Here are declared only the
+       columns that will be filled with some data
+       manually (columns like createAt, PKs and
+       etc do not need to be declared)
     */
     super.init(
       {
@@ -22,9 +22,9 @@ class User extends Model {
       }
     );
 
-    // Antes de salvar
+    // Before save
     this.addHook('beforeSave', async user => {
-      // Se foi enviado um password, encripta este password
+      // If a password has been sent, encrypt this password
       if (user.password) {
         user.password_hash = await bcrypt.hash(user.password, 8);
       }
@@ -34,7 +34,7 @@ class User extends Model {
   }
 
   /*
-   * Função que verifica se o password é válido
+   * Function that checks if the password is valid
    */
   checkPassword(password) {
     return bcrypt.compare(password, this.password_hash);
