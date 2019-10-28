@@ -17,8 +17,5 @@ module.exports = {
     );
   },
 
-  down: (queryInterface, Sequelize) => {
-    const Op = Sequelize.Op
-    return queryInterface.bulkDelete('users', {email: {[Op.in]: ['admin@gympoint.com']}}, {})
-  },
+  down: () => {},
 };

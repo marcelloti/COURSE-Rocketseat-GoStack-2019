@@ -1,14 +1,10 @@
 # Portuguse Instructions
 
 # Bootcamp Rocketseat Docker
-VSCode em execução em um contêiner de docker + Nodejs + React e mais.
-
-Dentro do diretório developer/code estão os projetos. É possível executar os projetos
-separadamente (sem precisar utilizar docker) se necessário. Para isto, siga o README específico
-de cada um desses projetos.
+VSCode em execução em um contêiner de docker + Nodejs + React e mais
 
 # Instruções
-### Para executar as aplicações do docker-compose.yml, você precisará do docker e do docker-compose pré-instalados em sua máquina.
+### Para executar este projeto, você precisará das janelas de encaixe e composição de encaixe pré-instaladas em sua máquina.
 
 
 ## 1- Clone o repositório
@@ -43,11 +39,8 @@ o script de inicialização cuidará de instalar o software automaticamente.
 # Bootcamp Rocketseat Docker
 VSCode running inside a docker container + Nodejs + React and more
 
-Inside the directory developer/code are all the projects. It's possbile to run the projects
-individually (without docker). To do this, follow the README instructions (inside the folder of each project).
-
 # Instructions
-### To run the applications in docker-compose.yml, you will need the docker and docker-compose preinstalled on your machine.
+### To run this project, you will need the docker and docker-compose preinstalled on your machine.
 
 
 ## 1- Clone the repository

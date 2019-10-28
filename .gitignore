@@ -1,5 +1,4 @@
-developer/.npm/
-developer/.npm/_cacache/
+
 developer/.cache/
 developer/.cache/*
 developer/Bootcamp/gobarber/.env
