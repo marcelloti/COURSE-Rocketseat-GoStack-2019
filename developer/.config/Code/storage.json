@@ -373,8 +373,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1375,7 +1374,7 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#282a36",
+    "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///home/developer/code",
