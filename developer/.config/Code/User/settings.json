@@ -41,6 +41,8 @@
     "javascript.suggest.autoImports": false,
     "code-runner.runInTerminal": true,
     "cSpell.userWords": [
+        "Checkin",
+        "checkins",
         "middlewares",
         "quadrado"
     ],
