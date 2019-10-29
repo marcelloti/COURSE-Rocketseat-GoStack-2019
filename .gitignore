@@ -52,3 +52,11 @@ developer/.bashrc
 developer/code/Bootcamp/gympoint/node_modules/
 
 developer/code/Bootcamp/gobarber/node_modules/
+
+developer/mongodb /
+
+developer/code/Bootcamp/gobarber/tmp/uploads/
+
+developer/redis /
+
+developer/postgres_data/
