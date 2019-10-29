@@ -720,11 +720,13 @@
                     },
                     {
                         "id": "workbench.action.debug.stop",
-                        "label": "&&Stop Debugging"
+                        "label": "&&Stop Debugging",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.debug.restart",
-                        "label": "&&Restart Debugging"
+                        "label": "&&Restart Debugging",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1380,8 +1382,8 @@
             "backupPath": "/home/developer/.config/Code/Backups/e0be9205fae40fba0b318be1cbd98509",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 0,
+                "x": 4,
+                "y": 29,
                 "width": 902,
                 "height": 453
             }
