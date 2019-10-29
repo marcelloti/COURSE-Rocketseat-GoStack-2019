@@ -8,7 +8,6 @@ import PlanController from './app/controllers/PlanController';
 import EnrolmentController from './app/controllers/EnrolmentController';
 import CheckinController from './app/controllers/CheckinController';
 import HelpOrderController from './app/controllers/HelpOrderController';
-import AnswerHelpOrderController from './app/controllers/AnswerHelpOrderController';
 
 // Authentication Middlewares
 import authMiddleware from './app/middlewares/auth';
@@ -28,12 +27,15 @@ routes.get('/students/:id/checkins', CheckinController.show);
 routes.post('/students/:id/checkins', CheckinController.store);
 
 // HelpOrder
-routes.get('/students/:id/help-orders', HelpOrderController.index);
 routes.post('/students/:id/help-orders', HelpOrderController.store);
+routes.get('/students/:id/help-orders', HelpOrderController.show);
 
 // With this “use” statement the routes below will use middleware.
 // The above routes will remain unused middleware
 routes.use(authMiddleware);
+
+routes.get('/students/help-orders', HelpOrderController.index);
+routes.put('/help-orders/:id/answer', HelpOrderController.update);
 
 // Student Routes
 routes.get('/students', StudentController.index);

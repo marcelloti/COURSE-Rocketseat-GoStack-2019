@@ -1,5 +1,4 @@
-developer/.npm/
-developer/.npm/_cacache/
+
 developer/.cache/
 developer/.cache/*
 developer/Bootcamp/gobarber/.env
@@ -60,3 +59,5 @@ developer/code/Bootcamp/gobarber/tmp/uploads/
 developer/redis /
 
 developer/postgres_data/
+
+developer/code/Bootcamp/modulo04/node_modules/
