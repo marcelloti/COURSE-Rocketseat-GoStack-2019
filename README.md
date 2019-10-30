@@ -37,6 +37,10 @@ Para o VSCode, se você não deseja fazer o download da versão mais recente aut
 O contêiner do PostBird não faz o download automático do pacote de instalação. Você precisa manualmente baixar e colocar o pacote em "developer/downloads/postbird.deb". Após isso, suba o contêiner e
 o script de inicialização cuidará de instalar o software automaticamente.
 
+## Insomnia
+Após inicializar o contêiner do Insomnia, faça a importação do arquivo "Insomnia-Data.json". Este arquivo se encontra no diretório do desenvolvedor em /home/developer/Insomnia-Data.json
+
+
 ##########################
 # English instructions
 
@@ -75,3 +79,6 @@ For VSCode, if you do not want to download the latest version of vscode automati
 ## To execute the PostBird container
 The PostBird container do not install automatically the app. You must manually download and put the package file on "developer/downloads/postbird.deb". After that, up the container and the init script will 
 take care of installattion automatically.
+
+## Insomnia
+After initialize the Insomnia container, make the import of file "Insomnia-Data.json". This file is placed inside the directory of the developer at /home/developer/Insomnia-Data.json
