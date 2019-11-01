@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import Post from './components/Post';
+import avatar1 from './assets/me.jpg';
+import avatar2 from './assets/me.jpg';
+import avatar3 from './assets/me.jpg';
+import avatar4 from './assets/me.jpg';
+import avatar5 from './assets/me.jpg';
+import avatar6 from './assets/me.jpg';
+import avatar7 from './assets/me.jpg';
 
 class PostList extends Component {
   state = {
@@ -7,7 +15,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: avatar1
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -16,18 +24,20 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: avatar1
             },
             content: "Conteúdo do comentário"
           }
         ]
-      },
-      {
-        id: 2
-        // Restante dos dados de um novo post
       }
     ]
   };
+
+  render() {
+    return (
+      this.state.posts.map(post => <Post post={post}/>)
+    )
+  }  
 }
 
-export default Post;
+export default PostList;
