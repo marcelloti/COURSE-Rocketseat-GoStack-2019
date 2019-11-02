@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Post from './components/Post';
-import avatar1 from './assets/me.jpg';
-import avatar2 from './assets/me.jpg';
-import avatar3 from './assets/me.jpg';
-import avatar4 from './assets/me.jpg';
-import avatar5 from './assets/me.jpg';
-import avatar6 from './assets/me.jpg';
-import avatar7 from './assets/me.jpg';
+import Post from './Post';
+import avatar1 from '../assets/avatar1.png';
+import avatar2 from '../assets/avatar2.png';
+import avatar3 from '../assets/avatar3.png';
+import avatar4 from '../assets/avatar4.png';
+import avatar5 from '../assets/avatar5.png';
 
 class PostList extends Component {
   state = {
@@ -14,7 +12,7 @@ class PostList extends Component {
       {
         id: 1,
         author: {
-          name: "Julio Alcantara",
+          name: "Júlio Alcantara",
           avatar: avatar1
         },
         date: "04 Jun 2019",
@@ -26,7 +24,7 @@ class PostList extends Component {
               name: "Diego Fernandes",
               avatar: avatar1
             },
-            content: "Conteúdo do comentário"
+            content: "A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)"
           }
         ]
       }
@@ -35,7 +33,7 @@ class PostList extends Component {
 
   render() {
     return (
-      this.state.posts.map(post => <Post post={post}/>)
+      this.state.posts.map(post => <Post key={post.id} post={post}/>)
     )
   }  
 }

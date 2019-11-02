@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 function CommentPostCard({comments}) {
   return (
     comments.map(comment => {
-      console.log(comment);
-      let { id, author, content } = comments;
+      let { id, author, content } = comment;
       let { name, avatar } = author;
 
       <div class="comment-postcard">

@@ -1,37 +1,32 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
+import Commentpostcard from './CommentPostCard';
 
-function Post({ id, author, date, content, comments }) {
+function Post({ post }) {
+  const { id, author, date, content, comments } = post;
   const { name, avatar } = author;
+
   return (
-    <div class="postcard">
-      <div class="header_postcard">
-        <div class="avatar_postcard">
+    <div className="postcard center">
+      <div className="header_postcard">
+        <div className="avatar_postcard">
           <img src={avatar} alt="avatar-post-card"/>
         </div>
-        <div class="author_postcard">
-          <p>{name}</p>
-          <p>date</p>
+        <div className="author_postcard">
+          <div className="author_postcard_name">{name}</div>
+          <div className="author_postcard_date">{date}</div>
         </div>
       </div>
-      <div class="content-postcard">
+      <br/>
+      <div className="content-postcard">
         <p>{content}</p>
       </div>
       <hr />
-      <div class="comments-postcard">
-        <commentPostCard />
+      <div className="comments-postcard">
+        <Commentpostcard comments={comments} />
       </div>
     </div>
   )
 }
-
-TechItem.defaultProps = {
-  tech: 'Oculto'
-};
-
-TechItem.propTypes = {
-  tech: propTypes.string,
-  onDelete: propTypes.func.isRequired,
-};
 
 export default Post;
