@@ -41,10 +41,32 @@
     "javascript.suggest.autoImports": false,
     "code-runner.runInTerminal": true,
     "cSpell.userWords": [
+        "Alcantara",
+        "Bootcamp",
         "Checkin",
+        "Fernandes",
+        "Rocketseat",
+        "SSS'Z",
+        "agendamento",
+        "alguém",
+        "busca",
+        "camelcase",
         "checkins",
+        "commentpostcard",
+        "contratando",
+        "dd'T'HH",
+        "devs",
+        "está",
+        "geralmente",
+        "membros",
         "middlewares",
-        "quadrado"
+        "mm'h",
+        "novos",
+        "olho",
+        "pessoal",
+        "quadrado",
+        "sabe"
     ],
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.language": "en,pt,pt_BR"
 }

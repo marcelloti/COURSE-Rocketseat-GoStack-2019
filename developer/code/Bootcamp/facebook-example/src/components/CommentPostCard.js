@@ -1,24 +1,63 @@
-import React, { Component } from 'react';
+/* eslint-disable prettier/prettier */
+/* eslint-disable react/jsx-indent */
+import React from 'react';
+// import propTypes from 'prop-types';
 
-function CommentPostCard({comments}) {
-  return (
-    comments.map(comment => {
-      let { id, author, content } = comment;
-      let { name, avatar } = author;
+function CommentPostCard({ comments }) {
+  return comments.map(comment => {
+    const { id, author, content } = comment;
+    const { name, avatar } = author;
 
-      <div class="comment-postcard">
-        <div class="avatar_comment_postcard">
-          <img src={avatar} alt="avatar_comment_postcard"/>
+    return (
+      <div key={id} className="comment-postcard">
+        <div className="avatar_comment_postcard">
+          <img src={avatar} alt="avatar_comment_postcard" />
         </div>
-        <div class="author_comment_postcard">
-          <p>
+
+        <div className="container_comment_postcard">
+          <span className="author_comment_postcard">
             <strong>{name}</strong>
+          </span>
+          &nbsp;&nbsp;
+          <span className="content_comment_postcard">
             {content}
-          </p>
+          </span>
         </div>
       </div>
-    })
-  );
+    );
+  });
 }
+/*
+CommentPostCard.propTypes = {
+  comments: propTypes.arrayOf(
+    propTypes.shape({
+      comment: propTypes.objectOf(
+        propTypes.shape({
+          id: propTypes,
+          author: propTypes.objectOf(
+            propTypes.shape({
+              name: propTypes.string(),
+              avatar: propTypes.string(),
+            })
+          ).isRequired,
+          date: propTypes.date().isRequired,
+          content: propTypes.string().isRequired,
+          comments: propTypes.objectOf(
+            propTypes.shape({
+              id: propTypes.number().isRequired,
+              author: propTypes.objectOf(
+                propTypes.shape({
+                  name: propTypes.string(),
+                  avatar: propTypes.string(),
+                })
+              ).isRequired,
+              content: propTypes.string().isRequired,
+            })
+          ),
+        })
+      ).isRequired,
+    })
+  ),
+}; */
 
 export default CommentPostCard;

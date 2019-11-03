@@ -1,4 +1,12 @@
 {
     "editor.fontFamily": "'Fira Code'",
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "spellright.language": [
+        "Portuguese (Brazilian)"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
