@@ -1,0 +1,16 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=/home/developer/.gradle/caches/transforms-2/files-2.1/aa29ff0b44132386fe5ca7e71d160f0b/jars/classes.jar
+FILE.hash=1f75b3cb79621362c3b9adba7d3f98eb81ccec3c9e0927bedbb97575c5537751
+DX_VERSION=1.16
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=D8
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=16
+IS_DEBUGGABLE=true
+EXTRA_DEPENDENCIES[0].path=/home/developer/Android/Sdk/platforms/android-28/android.jar
+EXTRA_DEPENDENCIES[0].hash=d20853d289a5161d9cf1c1268d7923076487d4fa68c970b0733e2d5a0ccfc3c5
+EXTRA_DEPENDENCIES[1].path=/home/developer/.gradle/caches/transforms-2/files-2.1/13940abed8451e9a1addd9bad43216bd/jars/classes.jar
+EXTRA_DEPENDENCIES[1].hash=fb34a59fa31f3831e93a0d3e9cf82c2f289ee3ff3cef7185a3c7a421cbcc471a
+EXTRA_DEPENDENCIES[2].path=/home/developer/.gradle/caches/transforms-2/files-2.1/81df4881ecf22bf56e3ba368f1f4eed3/jars/classes.jar
+EXTRA_DEPENDENCIES[2].hash=50a4454f41fc0e23f8c729710eeb0bf48d427fc1bc0c131396ed624140952785

@@ -40,6 +40,18 @@ o script de inicialização cuidará de instalar o software automaticamente.
 ## Insomnia
 Após inicializar o contêiner do Insomnia, faça a importação do arquivo "Insomnia-Data.json". Este arquivo se encontra no diretório do desenvolvedor em /home/developer/Insomnia-Data.json
 
+## Android SDK
+Acesse o endereço https://developer.android.com/studio/#downloads e baixe o arquivo "sdk-tools-linux-VERSAO.zip" na sessão "Command line tools only". Após isso, extraia o conteúdo deste arquivo para o diretório "/bootcamp-rocketseat-docker/developer/Android/Sdk"
+
+Para instalar as dependências para este projeto, rode o comando (manualmente):
+~/Android/Sdk/bin/sdkmanager "platform-tools" "platforms;android-27" "build-tools;27.0.3"
+
+Coloque seu celular em modo de depuração e rode o comando:
+adb devices
+
+Se nada aparecer, tente rodar os seguintes comandos (tanto no container quanto no host):
+sudo adb kill-server
+sudo adb start-server
 
 ##########################
 # English instructions
@@ -82,3 +94,16 @@ take care of installattion automatically.
 
 ## Insomnia
 After initialize the Insomnia container, make the import of file "Insomnia-Data.json". This file is placed inside the directory of the developer at /home/developer/Insomnia-Data.json
+
+## Android SDK
+Go to https://developer.android.com/studio/#downloads and download the file "sdk-tools-linux-VERSION.zip" in the "Command Line Tools Only" session. After that, extract the contents of this file to the "/bootcamp-rocketseat-docker/developer/Android/Sdk" directory.
+
+To install dependencies for this project, run the command (manually):
+~/Android/Sdk/bin/sdkmanager "platform-tools" "platforms;android-27" "build-tools;27.0.3"
+
+Put your phone in debug mode and run the command:
+adb devices
+
+If nothing appears, try running the following commands (both container and host):
+sudo adb kill-server
+sudo adb start-server

@@ -1,0 +1,16 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=/home/developer/.gradle/caches/transforms-2/files-2.1/74b89825524ea582f3abbc9c29223ed1/jars/classes.jar
+FILE.hash=4dace6c7d292f0def7c7b44c3f639176fef5fd12b32aa5b0b300f0e3caaef5cb
+DX_VERSION=1.16
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=D8
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=16
+IS_DEBUGGABLE=true
+EXTRA_DEPENDENCIES[0].path=/home/developer/Android/Sdk/platforms/android-28/android.jar
+EXTRA_DEPENDENCIES[0].hash=d20853d289a5161d9cf1c1268d7923076487d4fa68c970b0733e2d5a0ccfc3c5
+EXTRA_DEPENDENCIES[1].path=/home/developer/.gradle/caches/transforms-2/files-2.1/c365f9d27836d073b1513dd79a6cfbf8/jars/classes.jar
+EXTRA_DEPENDENCIES[1].hash=dbdf5c3a7cbeec33385b99ab0002a0b55a1eaf90deb2719342fa5ccb647be36e
+EXTRA_DEPENDENCIES[2].path=/home/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar
+EXTRA_DEPENDENCIES[2].hash=07c3d82ca7eaf4722f00b2da807dc7860f6169ae60cfedcf5d40218f90880a46

@@ -23,5 +23,10 @@ if ! command_exists code ; then
     sudo apt-get -y -f install;
 fi
 
+# Exporting variables
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Start vscode
 code /home/developer/code

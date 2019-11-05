@@ -1,11 +1,11 @@
-FROM debian:buster-slim
+FROM ubuntu:18.04
 
 RUN apt-get update && \
     apt-get -y upgrade && \
-    apt-get -y install libcanberra-gtk-module libgconf-2-4 libasound2 libgtk2.0-0 libxss1 sudo curl wget libx11-xcb-dev git build-essential libssl-dev procps && \ 
+    apt-get -y install libcanberra-gtk-module libgconf-2-4 libasound2 libgtk2.0-0 libxss1 sudo curl wget libx11-xcb-dev git build-essential libssl-dev procps software-properties-common && \ 
     apt-get -y -f install
     
-RUN adduser --disabled-password --gecos "" developer && mkdir /home/developer/code && chmod 777 -R /home/developer/code
+ RUN adduser --disabled-password --gecos "" developer && if [ ! -d "/home/developer/code" ]; then mkdir /home/developer/code && chmod 777 -R /home/developer/code; fi;
 
 RUN echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
     chmod 0440 /etc/sudoers.d/developer
@@ -13,25 +13,38 @@ RUN echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
 ADD ./init-vscode.sh /usr/local/bin/init.sh
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
-RUN apt-get update && apt-get install -y nodejs
+RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+RUN apt-get update
+RUN apt-get install -y nodejs
 
 # Install yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-RUN apt-get update && apt-get install yarn
+RUN apt-get update && apt-get install yarn -y
 
+# Install ESLint
+RUN npm install -g eslint-plugin-import eslint@6.5
+
+# Install OpenJDK 8
+RUN sudo add-apt-repository ppa:openjdk-r/ppa -y
+RUN sudo apt-get update
+RUN sudo apt-get install openjdk-8-jdk -y
+
+# Install React Native
+RUN sudo yarn global add react-native-cli
+
+# Switch to developer user
 USER developer
 ENV HOME /home/developer
 RUN touch /home/developer/.bashrc
 
-# Install NVM
-RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-
-# Install ESLint
-RUN sudo npm install -g eslint-plugin-import eslint@6.5
-
 # Update fonts cache
 RUN fc-cache -f -v
+
+# Install libs for emulation
+RUN sudo apt-get install gcc-multilib lib32z1 lib32stdc++6 -y
+
+# Install ADB
+RUN sudo apt-get install adb -y
 
 ENTRYPOINT /usr/local/bin/init.sh && /bin/bash

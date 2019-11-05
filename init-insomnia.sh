@@ -3,4 +3,4 @@
 #
 # Put here what you want to be executed when the container starts
 
-/opt/Insomnia/./insomnia
+/usr/local/bin/./init.sh
