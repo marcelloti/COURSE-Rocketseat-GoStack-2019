@@ -43,8 +43,10 @@
     "cSpell.userWords": [
         "Alcantara",
         "Bootcamp",
+        "Captalize",
         "Checkin",
         "Fernandes",
+        "Reactotron",
         "Rocketseat",
         "SSS'Z",
         "agendamento",
@@ -68,5 +70,6 @@
         "sabe"
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
     "cSpell.language": "en,pt,pt_BR"
 }

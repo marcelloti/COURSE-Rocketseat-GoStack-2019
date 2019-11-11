@@ -1,0 +1,16 @@
+import Reactotron from 'reactotron-react-native';
+
+if (__DEV__) {
+  const tron = Reactotron.configure({
+    host: '192.168.0.13',
+  })
+    .useReactNative()
+    .connect();
+
+  // eslint-disable-next-line no-console
+  console.tron = tron;
+
+  // Non-persistent logs on Reactotron
+  // Remove this if you want persistent logs
+  tron.clear();
+}
