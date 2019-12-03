@@ -6,7 +6,8 @@ module.exports = {
   extends: [
     'airbnb',
     'prettier',
-    'prettier/react'
+    'prettier/react',
+    'react-hooks'
   ],
   globals: {
     Atomics: 'readonly',

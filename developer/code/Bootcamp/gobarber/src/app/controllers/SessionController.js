@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import * as Yup from 'yup';
 
 import User from '../models/User';
+import File from '../models/File';
 import authConfig from '../../config/auth';
 
 class SessionController {
@@ -23,6 +24,13 @@ class SessionController {
       where: {
         email,
       },
+      include: [
+        {
+          model: File,
+          as: 'avatar',
+          attributes: ['id', 'path', 'url'],
+        }
+      ]
     });
 
     if (!user) {
@@ -33,13 +41,15 @@ class SessionController {
       return res.status(401).json({ error: 'Password does not match' });
     }
 
-    const { id, name } = user;
+    const { id, name, avatar, provider } = user;
 
     return res.json({
       user: {
         id,
         name,
         email,
+        provider,
+        avatar,
       },
       token: jwt.sign(
         {
