@@ -21,7 +21,7 @@ export default class User extends Component {
     title: navigation.getParam('user').name,
   });
 
-  static propTypes = {
+  static defaultProps = {
     navigation: PropTypes.shape({
       getParam: PropTypes.func,
     }).isRequired,

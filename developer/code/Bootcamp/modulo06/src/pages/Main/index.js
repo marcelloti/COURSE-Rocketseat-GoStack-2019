@@ -27,7 +27,7 @@ export default class Main extends Component {
     title: 'Usuários',
   };
 
-  static PropTypes = {
+  static defaultProps = {
     navigation: PropTypes.shape({
       navigate: PropTypes.func,
     }).isRequired,
@@ -40,13 +40,13 @@ export default class Main extends Component {
   };
 
   async componentDidMount() {
-    const users = await AsyncStorage.getItem('users');
+    /*const users = await AsyncStorage.getItem('users');
 
     if (users) {
       this.setState({
         users: JSON.parse(users),
       });
-    }
+    } */
   }
 
   componentDidUpdate(_, prevState) {
@@ -100,10 +100,7 @@ export default class Main extends Component {
             returnKeyType="send"
             onSubmitEditing={this.handleAddUser}
           />
-          <SubmitButton
-            loading={loading}
-            onPress={() => this.handleAddUser(item)}
-          >
+          <SubmitButton onPress={this.handleAddUser} loading={loading}>
             {loading ? (
               <ActivityIndicator color="#FFF" />
             ) : (
