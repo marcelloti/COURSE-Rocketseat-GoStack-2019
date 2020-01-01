@@ -57,11 +57,11 @@ class AvailableController {
         value: format(value, "yyyy-MM-dd'T'HH:mm:ssxxx"),
         available:
           isAfter(value, new Date()) &&
-          appointments.find(a => format(a.date, 'HH:mm') === time),
+          !appointments.find(a => format(a.date, 'HH:mm') === time),
       };
     });
 
-    res.json(available);
+    return res.json(available);
   }
 }
 

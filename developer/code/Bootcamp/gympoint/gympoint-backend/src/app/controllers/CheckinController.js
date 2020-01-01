@@ -22,7 +22,7 @@ class CheckinController {
     const checkins = await Checkin.findAll({
       where: { student_id: id },
       order: ['created_at'],
-      attributes: ['created_at'],
+      attributes: ['id', 'created_at'],
       include: [
         {
           model: Student,
