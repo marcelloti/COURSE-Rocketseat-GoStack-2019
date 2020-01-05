@@ -1,4 +1,9 @@
-# Portuguse Instructions
+# Portuguese Instructions
+
+## AVISO
+O código do projeto neste repositório está depreciado e o novo repositório deve ser acessado: https://github.com/marcelloti/bootcamp-rocketseat-DESAFIO-FINAL.
+
+Este repositório foi mantido pois contém aplicações gráficas que foram utilizadas no projeto final e que estão rodando com o docker-compose
 
 # Bootcamp Rocketseat Docker
 VSCode em execução em um contêiner de docker + Nodejs + React e mais.
@@ -55,6 +60,11 @@ sudo adb start-server
 
 ##########################
 # English instructions
+
+## WARNING
+The project code in this repository is deprecated and the new repository should be accessed: https://github.com/marcelloti/bootcamp-rocketseat-DESAFIO-FINAL.
+
+This repository was maintained as it contains graphical applications that were used in the final project and are running docker-compose.
 
 # Bootcamp Rocketseat Docker
 VSCode running inside a docker container + Nodejs + React and more
